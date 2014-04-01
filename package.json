@@ -1,0 +1,21 @@
+{
+  "name" : "",
+  "version" : "0.0.1",
+  "dependencies" : {
+    "underscore": "1.5.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "jsdom": "*",
+    "gulp": "*",
+    "coffee-script": "*",
+    "gulp-clean": "*",
+    "gulp-coffee": "*",
+    "gulp-browserify": "*",
+    "gulp-concat": "*",
+    "gulp-uglify": "*"
+  },
+  "scripts": {
+    "test": "mocha test"
+  }
+}
