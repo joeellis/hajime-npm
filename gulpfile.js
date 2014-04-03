@@ -6,7 +6,7 @@ var clean = require('gulp-clean');
 
 var paths = {
   src_scripts: 'src/js/**/*.coffee',
-  build_scripts: 'build/js/**/*.coffee'
+  build_scripts: 'build/js/**/*.js'
 };
 
 gulp.task('clean', function() {
@@ -15,7 +15,7 @@ gulp.task('clean', function() {
 })
 
 gulp.task('scripts', ['clean'], function() {
-  return gulp.src(paths.src_scripts, {read: false})
+  return gulp.src(paths.src_scripts)
     .pipe(coffee())
     .pipe(gulp.dest('build/js'))
     .pipe(concat('index.js'))
