@@ -15,7 +15,7 @@ My starter stack for new npm packages.   At the moment, I generally like the thi
 Run `gulp` in the app directory.  It will watch for changes in src and automatically compile the coffeescript under `src` to `build`, concatenate everything, browserify it, and create a final `index.js` file in the root directory.
 
 ## Testing
-Run `npm test` to run any tests under Mocha in the test directory.  Use `mocha.opts` to set any [Mocha flags](http://visionmedia.github.io/mocha/#usage) that are important to you.
+Run `npm test` to run any tests under Mocha in the test directory.  Use `mocha.opts` to set any [Mocha flags](http://mochajs.org/#usage) that are important to you.
 
 ## License
 
